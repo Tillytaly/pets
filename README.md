@@ -14,8 +14,8 @@ node ./backend/server.js
 
 Project stack:
 
--node
--vite
--react
--typescript
--react-router-dom
+*node
+*vite
+*react
+*typescript
+*react-router-dom
