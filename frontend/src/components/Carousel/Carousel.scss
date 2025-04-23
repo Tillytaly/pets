@@ -1,0 +1,76 @@
+$animationSpeed: 40s;
+$slideWidth: 300px;
+
+// Animation
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-300px * 7));
+  }
+}
+
+// Styling
+.slider {
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 350px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+
+  &::before,
+  &::after {
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  &::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide-track {
+    animation: scroll $animationSpeed linear infinite;
+    display: flex;
+    width: calc($slideWidth * 14);
+    height: 100%;
+    transition: transform 0.25s ease-in-out;
+    animation-play-state: running;
+
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+
+  .slide {
+    padding: 0 15px;
+    width: $slideWidth;
+    color: black;
+    transition: transform 0.25s ease-in;
+
+    &:hover {
+      transform: scale(1.1); // Slightly bigger on hover
+    }
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.slide-track.paused {
+  animation: none; // Stop the animation
+}

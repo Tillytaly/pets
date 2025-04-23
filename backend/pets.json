@@ -1,0 +1,86 @@
+[
+  {
+    "type": "dog",
+    "name": "Whiskers",
+    "age": 7,
+    "description": "Loves to chase laser pointers and nap in the sun.",
+    "id": "id_1"
+  },
+  {
+    "type": "dog",
+    "name": "Bark Twain",
+    "age": 4,
+    "description": "A master of fetching and always ready for a game of catch.",
+    "id": "id_2"
+  },
+  {
+    "type": "cat",
+    "name": "Purrlock Holmes",
+    "age": 8,
+    "description": "Enjoys jumping into boxes and looking at birds through the window.",
+    "id": "id_3"
+  },
+  {
+    "type": "cat",
+    "name": "Furball",
+    "age": 1,
+    "description": "Has a knack for climbing trees and catching birds.",
+    "id": "id_4"
+  },
+  {
+    "type": "cat",
+    "name": "Sir Waggington",
+    "age": 15,
+    "description": "A cuddle expert who loves drinking milk.",
+    "id": "id_5"
+  },
+  {
+    "type": "cat",
+    "name": "Meowzart",
+    "age": 1,
+    "description": "Always the center of attention with a playful personality.",
+    "id": "id_6"
+  },
+  {
+    "type": "dog",
+    "name": "Paw-sitive Vibes",
+    "age": 11,
+    "description": "Enjoys playing hide and seek and is a great snuggler.",
+    "id": "id_7"
+  },
+  {
+    "type": "dog",
+    "name": "Catticus Finch",
+    "age": 10,
+    "description": "Has a unique talent for rolling over on command.",
+    "id": "id_8"
+  },
+  {
+    "type": "cat",
+    "name": "Fido",
+    "age": 9,
+    "description": "A true foodie who loves trying new treats.",
+    "id": "id_9"
+  },
+  {
+    "type": "dog",
+    "name": "Snoopy",
+    "age": 14,
+    "description": "Loves to play in the water and chase after waves.",
+    "id": "id_10"
+  },
+  {
+    "type": "dog",
+    "name": "Paw-some",
+    "age": 12,
+    "description": "A loyal companion who never leaves your side.",
+    "id": "id_11"
+  },
+  {
+    "type": "cat",
+    "name": "Purr-fect",
+    "age": 4,
+    "description": "Has a flair for the dramatic and loves lick foil.",
+    "id": "id_12"
+  }
+]
