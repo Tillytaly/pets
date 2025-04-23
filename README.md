@@ -9,7 +9,7 @@ node ./backend/server.js
 ### To run frontend navigate to **/frontend** and run  
 
 ```
- npm run dev.
+ npm run dev
 ```
 
 Project stack
