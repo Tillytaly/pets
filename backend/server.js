@@ -4,10 +4,8 @@ const JsonHelper = require("./utils/jsonHelper");
 
 const cors = require("cors");
 const { v4: uuidv4 } = require("uuid");
-const fs = require("fs");
 const path = require("path");
 const petsFilePath = path.join(__dirname, "/pets.json");
-const { randomUUID } = require("crypto");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
