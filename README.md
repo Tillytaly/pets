@@ -12,7 +12,8 @@ node ./backend/server.js
  npm run dev
 ```
 
-Project stack
+Project stack:
+
 -node
 -vite
 -react
